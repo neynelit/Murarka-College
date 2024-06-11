@@ -30,11 +30,11 @@ function Navebar() {
             </Container>
         </Navbar>
 
-        <Navbar expand='lg' className='bg-body-tertiary navbar-toggleable-md text-center mainNav' variant='dark'>
-            <Container fluid className='text-center'>
-                <Navbar.Toggle aria-controls='responsive-navbar-nav' />
+        <Navbar expand='xl' className='bg-body-tertiary text-center mainNav' variant='dark'>
+            <Container fluid className='text-center mainNav-container'>
+                <Navbar.Toggle aria-controls='responsive-navbar-nav navbar-nav' />
 
-                <Navbar.Collapse collapseOnSelect id='responsive-navbar-nav' className='justify-content-center'>
+                <Navbar.Collapse collapseOnSelect id='responsive-navbar-nav' className='justify-content-center mainNav-navbar'>
                     <Nav.Item className='mainNav-item'>
                         <Nav.Link>Home</Nav.Link>
                     </Nav.Item>

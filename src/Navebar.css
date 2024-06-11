@@ -1,0 +1,81 @@
+.topNav{
+    padding: 0px 10px;
+}
+
+.topNav-container{
+    width: 100%;
+}
+
+.logo-section{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.logo-section img{
+    width: 80px;
+}
+
+.logo-section h3{
+    font-size: 30px;
+    padding: 20px 0px 0px 10px;
+    color: rgb(187, 0, 0);
+    font-family: "Roboto Slab", serif;
+    font-weight: 600;
+}
+
+.naac-iso{
+    display: flex;
+    flex-direction: column;
+}
+
+.naac-iso-box{
+    display: flex;
+}
+
+.naac-iso-box:last-child{
+    padding-left: 5px;
+}
+
+.naac-iso-box img{
+    width: 30px;
+    height: 30px;
+}
+
+.naac-iso-box h5{
+    font-size: 16px;
+    padding-left: 5px;
+    padding-top: 4px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 500;
+    color: rgb(187, 0, 0);
+    cursor: default;
+}
+
+.mainNav{
+    background-color: rgb(187, 0, 0);
+    padding: 0px 5px;
+}
+
+.mainNav-item .nav-link{
+    color: white;
+    padding: 2px 10px;
+}
+
+.dropdown-item .nav-dropdown-child .nav-link{
+    color: black;
+    padding: 0;
+}
+
+@media screen and (max-width: 991px) {
+    .naac-iso-box:last-child{
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .topNav .topNav-container{
+        display: flex;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,3 @@
+college logo --> font-family: "Roboto Slab", serif;
+
+naac iso --> font-family: "Poppins", sans-serif;

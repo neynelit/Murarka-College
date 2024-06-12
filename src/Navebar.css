@@ -73,21 +73,66 @@
 }
 
 .mainNav-item .nav-link{
-    color: rgb(187, 0, 0);
+    color: white;
+    background-color: rgb(187, 0, 0);
     padding: 2px 10px;
-    background-color: white;
     border-radius: 2px;
+    max-width: fit-content;
 }
 
 .mainNav-item .nav-link:hover{
-    color: rgb(151, 0, 0);
-    padding: 2px 10px;
-    background-color: rgb(199, 199, 199);
+    color: rgb(187, 0, 0);
+    background-color: white;
 }
 
-.dropdown-item .nav-dropdown-child .nav-link{
-    color: black;
+.active .nav-link{
+    color: rgb(187, 0, 0);
+    background-color: white;
+}
+
+.mainNav-item .dropdown .dropdown-item .nav-dropdown-child .nav-link{
+    color: rgb(187, 0, 0);
+    background-color: white;
     padding: 0;
+    width: 100%;
+}
+
+.mainNav-item .dropdown .dropdown-item .nav-dropdown-child .nav-link:hover{
+    color: white;
+    background-color: rgb(187, 0, 0);
+}
+
+.mainNav-item .dropdown .dropdown-menu .main-dropdown{
+    color: rgb(187, 0, 0);
+    background-color: white;
+}
+
+.mainNav-item .dropdown .dropdown-menu .main-dropdown:hover{
+    color: white;
+    background-color: rgb(187, 0, 0);
+}
+
+.mainNav-item .dropdown .dropdown-menu .nav-dropdown-parent{
+    color: rgb(187, 0, 0);
+    background-color: white;
+}
+
+.mainNav-item .dropdown .dropdown-menu .nav-dropdown-parent:hover{
+    color: white;
+    background-color: rgb(187, 0, 0);
+}
+
+.mainNav-item .dropdown .dropdown-menu .nav-dropdown-parent:hover .nav-dropdown-child .nav-link{
+    color: white;
+    background-color: rgb(187, 0, 0);
+}
+
+.navbar-toggler:focus{
+    outline: none;
+}
+
+.navbar-toggler-icon{
+    /* background-image: url('../images/bars-solid.svg'); */
 }
 
 @media screen and (max-width: 991px) {
